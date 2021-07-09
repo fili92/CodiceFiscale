@@ -74,7 +74,6 @@ function calcoloCF() {
     // Carattere di controllo
     cf.push(getCarattereDiControllo(cf));
 
-
     div_cf.style.display = "block";
     div_cf.innerText = cf.join('').toUpperCase();
 }
