@@ -1,0 +1,48 @@
+body {
+    background-color: thistle;
+}
+
+.container {
+    width: 75%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid teal;
+    border-radius: 5px;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    padding: 10px 20px;
+}
+
+.container label {
+    color: white;
+    margin-top: 5px;
+}
+
+.container div {
+    margin-top: 5px;
+}
+
+.btnCalcCF {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    margin: 10px auto;
+    font-size: large;
+}
+
+.container-cf {
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+}
